@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+}
+#slider{ /*положение слайдера*/
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+
+#slider{/*центровка слайдера*/
+	margin: 0 auto;
+}
+#slider article{/*все изображение справа друг от друга*/
+	width: 20%;
+	float: left;
+
+}
+#slider .image{/*устанавливает общий размер блока с изображениями*/
+	width: 50%;
+	line-height: 0;
+
+}
+#overflow{/*cкрывает все,что находится за пределами этого блока*/
+	width: 100%;
+	overflow: hidden;
+}
