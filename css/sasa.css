@@ -4,7 +4,7 @@ h1{
 }
 
 div  {
-	width: 80%;
+	width: 60%;
 	height: 80%;
 }
 body {
@@ -51,5 +51,11 @@ p{
 .fa-clinic-medical, .fa-phone, .fa-laptop-medical {
   font-size: 4em;
 }
+.table{
+  overflow-y: hidden;
+}
+@media {
+  min-width 100px;
+  min-height 100px;
 
-
+}
