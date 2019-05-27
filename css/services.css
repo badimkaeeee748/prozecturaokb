@@ -1,0 +1,24 @@
+body, html {
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	background-image: url(../img/header.jpg);
+}
+
+.navbar {
+	max-width: 100vw;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+.fa-clinic-medical, .fa-phone, .fa-laptop-medical {
+	font-size: 4em;
+}
+
+@media only screen and (max-device-width: 1200px) {
+	footer {
+		font-size: 2vw;
+	}
+}
